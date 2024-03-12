@@ -112,6 +112,7 @@ class MainActivity : AppCompatActivity() {
                         Log.e("TAG", "response :$response: ")
                         println(response)
                     } catch (e: Exception) {
+
                         Log.e("TAG", "$e ")
                     }
                 }
